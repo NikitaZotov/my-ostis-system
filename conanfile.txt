@@ -1,0 +1,9 @@
+[requires]
+sc-machine/0.10.0   # Указываем, что проект требует библиотеку sc-machine версии 0.10.0
+
+[generators]
+CMakeDeps           # Генератор для создания файлов с информацией о зависимостях для CMake
+CMakeToolchain      # Генератор для создания файла toolchain для CMake
+
+[layout]
+cmake_layout        # Используем стандартный макет проекта
