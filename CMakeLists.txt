@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.24)
 set(CMAKE_CXX_STANDARD 17)
 
 # Определяем имя проекта, версию и используемые языки
-project(my-ostis-system VERSION 0.10.0 LANGUAGES C CXX)
+project(my-ostis-system VERSION 0.0.1 LANGUAGES C CXX)
 # Устанавливаем политику CMake для обработки версий проекта
 cmake_policy(SET CMP0048 NEW)
 
